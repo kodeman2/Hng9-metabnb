@@ -1,0 +1,75 @@
+.inspiration {
+  display: flex;
+  flex-direction: column;
+
+  padding: 58px 100px;
+}
+
+.inspiration h2 {
+  align-items: center;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  width: 100%;
+  line-height: 60px;
+  color: #1d1d1e;
+}
+
+.inspirationbody {
+  display: flex;
+
+  margin-top: 48px;
+}
+
+.inspirationcont {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+.inspirationcard {
+  border: 1px solid #d7d7d7;
+
+  padding: 8px;
+  border-radius: 15px;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  cursor: pointer;
+}
+
+.inspirationcard img {
+  border-radius: 15px;
+}
+
+.inspirationtext {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13px;
+  color: #434343;
+}
+
+.uptext {
+  display: flex;
+  justify-content: space-between;
+}
+
+.uptext h4 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 13px;
+  color: #434343;
+}
+
+.downtext {
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: -0.5px;
+}
+
+.rating {
+  display: flex;
+  gap: 5px;
+  padding: 9px 0px 16px 0px;
+}

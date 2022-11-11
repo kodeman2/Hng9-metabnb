@@ -1,0 +1,48 @@
+.bottommain{
+display: flex;
+padding: 100px;
+background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+border: 1px solid #000000;
+color: #ffffff;
+gap: 110px;
+}
+
+.leftbottom{
+ margin-top: 86px;
+display: flex;
+flex-direction: column;
+width: 45%;
+}
+
+.leftbottom h2{
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+}
+
+.leftbottom p{
+ font-size: 18px;
+ line-height: 35px;
+ font-weight: 400;
+ word-wrap: break-word;
+ margin-top: 35px;
+}
+.leftbottom button{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 156px;
+ height: 48px;
+ background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+border-radius: 8px;
+color: #A02279;
+margin-top: 58px;
+}
+
+
+.rightbottom{
+display: flex;
+flex-direction: column;
+width: 704px;
+height: 575px;
+}
