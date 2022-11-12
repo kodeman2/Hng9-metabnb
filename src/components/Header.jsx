@@ -1,7 +1,16 @@
 
 import './header.css';
+import Modal from './Modal';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
+
+
 export default function Header() {
+
+
+ 
+    const [openModal, setOpenModal] = useState(false);
+
   return (
     <div className="header" >
       <div className="headerlogocontainer">
@@ -19,8 +28,9 @@ export default function Header() {
        </ul>
       </div>
       <div className="headerbtn">
-        <button className="">Connect Wallet</button>
+        <button  onClick={() => setOpenModal(true) }className="">Connect Wallet</button>
       </div>
+      <Modal open={openModal}  onClose={() => setOpenModal(false)} />
       
 
     </div>
