@@ -1,4 +1,5 @@
 import "./herosection.css";
+import  metamask from "../../assets/metamask.svg";
 
 export default function Herosection() {
   return (
@@ -37,7 +38,7 @@ export default function Herosection() {
       </div>
       <div className="herosectionbottomcontainer">
       <img src="../../assets/mbtoken.svg" alt="MBToken-Icon" id="imgStyle" />
-        <img src="../../assets/MetaMask.svg" alt="MetaMask-Icon" id="imgStyle" />
+        <img src={metamask} alt="MetaMask-Icon" id="imgStyle" />
         <img src="../../assets/OpenSea.svg" alt="OpenSea-Icon" id="imgStyle" />
       </div>
     </div>
