@@ -1,8 +1,8 @@
 import './modal.css'
 import { AiOutlineClose } from 'react-icons/ai'
 import { FiChevronRight } from 'react-icons/fi'
-import modal1 from '../../assets/modalimg1.svg'
-import modal2 from '../../assets/modalimg2.svg'
+import modal1 from '../assets/modalimg1.svg'
+import modal2 from '../assets/modalimg2.svg'
 
 const Modal = ({ open, onClose }) => {
     if(!open) return null
