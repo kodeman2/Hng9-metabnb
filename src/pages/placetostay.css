@@ -135,6 +135,9 @@
     padding: 80px 60px;
     align-items: center;
   }
+  .placecard{
+    align-items: center;
+  }
 
   .placehead{
     flex-direction: column;

@@ -112,7 +112,7 @@
   .herosectiontopcontainer{
     display: flex;
     flex-direction: column;
-    padding: 0px;
+    padding: 10px 100px;
     margin: 0px;
     width: 100%;
   }
@@ -167,7 +167,7 @@
     justify-content: center;
     margin-top: 30px;
    
-    gap: 10px;
+    gap: 30px;
     background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   }
 
