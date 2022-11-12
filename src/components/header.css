@@ -130,6 +130,7 @@
   position: fixed;
   top: -100%;
   background-color: #a02279;
+  border-radius: 0px 0px 20px 20px;
   align-items: center;
   transition: 1s ease;
   
