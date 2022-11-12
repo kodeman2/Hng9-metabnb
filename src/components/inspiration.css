@@ -73,3 +73,20 @@
   gap: 5px;
   padding: 9px 0px 16px 0px;
 }
+
+
+@media screen and (max-width: 1200px) {
+  .inspiration {
+    align-items: center;
+    padding: 58px 50px;
+  }
+
+  .inspiration h2 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .inspirationcont {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

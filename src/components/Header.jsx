@@ -3,13 +3,20 @@ import './header.css';
 import Modal from './Modal';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import CloseIcon from '@mui/icons-material/Close';
+import MenuIcon from '@mui/icons-material/Menu';
 
 
 export default function Header() {
 
 
- 
+    const [active, setActive] = useState(false);
     const [openModal, setOpenModal] = useState(false);
+
+    const handleToggle = () => {
+
+        setActive(!active);
+    }
 
   return (
     <div className="header" >
@@ -19,17 +26,23 @@ export default function Header() {
 
        
       </div>
-      <div className="headerlist">
-       <ul>
+      <div className="menuicon">
+        <MenuIcon onClick={handleToggle} />
+      </div>
+      <nav className={active ? 'navbar active' : 'navbar'}>   
+       <ul >
+        <div className="closed">
+          <CloseIcon onClick={handleToggle} className='close' />
+        </div>
          <li><Link to="/">Home</Link></li>
          <li><Link to="/placetostay">Place To Stay</Link></li>
          <li><Link to="/">NFTs</Link></li>
          <li><Link to="/">Community</Link></li>
        </ul>
-      </div>
       <div className="headerbtn">
-        <button  onClick={() => setOpenModal(true) }className="">Connect Wallet</button>
+        <button  onClick={() => setOpenModal(true) }className="modalbtn">Connect Wallet</button>
       </div>
+      </nav>
       <Modal open={openModal}  onClose={() => setOpenModal(false)} />
       
 

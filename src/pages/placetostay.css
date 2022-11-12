@@ -102,3 +102,56 @@
   gap: 5px;
   padding: 9px 0px 16px 0px;
 }
+
+@media (max-width: 1200px) {
+
+  .placetostay {
+    padding: 80px 0px 92px 0px;
+    align-items: center;
+  }
+
+  .placehead{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .placelist{
+    display: grid;
+    
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+
+  .placebody {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .placetostay {
+    padding: 80px 0px 92px 0px;
+    align-items: center;
+  }
+
+  .placehead{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .placelist{
+    display: grid;
+    
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .placebody {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+  }
+}

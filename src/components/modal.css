@@ -8,41 +8,55 @@
 }
 
 .modalContainer {
- max-width: 400px;
+ max-width: 500px;
  width: 100%;
  position: fixed;
  display: flex;
  flex-direction: column;
- top: 40%;
+ top: 50%;
  left: 50%;
  transform: translate(-50%, -50%);
  display: flex;
  background-color: #ffffff;
- box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
- border-radius: 8px;
+
+ border-radius: 16px;
 }
 
 .modalHeader{
  display: flex;
  justify-content: space-between;
  align-items: center;
- padding: 20px;
- border-bottom: .5px solid var(--light-grey-color);
+ padding: 24px;
+ border-bottom: 1px solid #cfd8dc;
+}
+
+.modalHeader h3{
+ font-size: 24px;
+ font-weight: 700;
+ line-height: 30px;
+ color: #333333;
+}
+
+.closebtn{
+width: 24px;
+height: 24px;
+cursor: pointer;
 }
 
 .modalHeader svg{
- font-weight: 300;
+ font-weight: 400;
 }
 
 form{
  display: flex;
  flex-direction: column;
  row-gap: 10px;
- padding: 20px;
+ padding: 30px;
 }
 
 form label{
- font-size: 10px;
+ font-size: 16px;
+ font-weight: 400;
 }
 
 form button, form button span{
@@ -54,7 +68,7 @@ form button, form button span{
 form button{
  padding: 10px 18px;
  border-radius: 5px;
- border: .5px solid var(--light-grey-color);
+ border: 1px solid #cfd8dc;
  outline: none;
  justify-content: space-between;
 }
@@ -65,5 +79,15 @@ form button img{
 }
 
 form button:last-child{
- background-color: var(--white-color);
+ background-color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+ .modalContainer {
+   width: 90%;
+   height: 40%;
+  
+   
+ }
+ 
 }

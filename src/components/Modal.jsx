@@ -13,12 +13,12 @@ const Modal = ({ open, onClose }) => {
             }}>
               <div className="modalHeader">
               <h3>Connect wallet</h3>
-              <p className='closeBtn' onClick={onClose}><AiOutlineClose /></p>
+              <p className='closebtn' onClick={onClose}><AiOutlineClose /></p>
               </div>
               <form>
                   <label>Choose your preferred wallet:</label>
-                  <button><span><img src={ modal1 } alt="metamask"/>Metamask</span> <FiChevronRight /></button>
-                    <button><span><img src={ modal2 } alt="wallet"/>WalletConnect</span><FiChevronRight /></button>
+                  <button><span  className='modalname'><img src={ modal1 } alt="metamask"/>Metamask</span> <FiChevronRight /></button>
+                    <button><span className='modalname'><img src={ modal2 } alt="wallet"/>WalletConnect</span><FiChevronRight /></button>
               </form>
           </div>
     </div>
