@@ -1,4 +1,4 @@
-
+import "./placetostay.css";
 
 export default function PlaceToStay() {
   return (
