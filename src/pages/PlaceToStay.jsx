@@ -79,7 +79,7 @@ export default function PlaceToStay() {
         {/* 1st container */}
         {places.map((place) => (
           <div className="placecard">
-           <img src={place} alt="place" />
+           <img src={place} alt="place" className="placeimg"/>
            <div className="placetext">
             <div className="uptext">
              <span>Desert King</span>
