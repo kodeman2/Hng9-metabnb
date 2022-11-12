@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
+import logo from '../assets/logo.png';
 
 
 export default function Header() {
@@ -21,7 +22,7 @@ export default function Header() {
   return (
     <div className="header" >
       <div className="headerlogocontainer">
-        <img src="../../assets/logo.png" alt="logo" className="logoicon" />
+        <img src={logo} alt="logo" className="logoicon" />
        
 
        

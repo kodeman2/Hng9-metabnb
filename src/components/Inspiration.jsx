@@ -7,6 +7,7 @@ import Five from "../cards/inspiration5.svg";
 import Six from "../cards/inspiration6.svg";
 import Seven from "../cards/inspiration7.svg";
 import Eight from "../cards/inspiration8.svg";
+import rating from "../assets/ratings.png";
 
 export default function Inspiration() {
 
@@ -44,7 +45,7 @@ export default function Inspiration() {
               <p>available for 2weeks stay</p>
             </div>
           </div>
-          <img src="../../assets/ratings.png" alt="rating" className="rating" />
+          <img src={rating} alt="rating" className="rating" />
         </div>
            
          ))}

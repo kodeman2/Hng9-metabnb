@@ -1,4 +1,5 @@
 import "./bottommain.css";
+import bottom from "../assets/bottom.png";
 
 export default function BottomMain() {
   return (
@@ -13,7 +14,7 @@ export default function BottomMain() {
 
      </div>
      <div className="rightbottom">
-      <img src="../../assets/bottom.png" alt="bottom" className="bottomimg" />
+      <img src={bottom} alt="bottom" className="bottomimgg" />
       </div>
      </div>
   )

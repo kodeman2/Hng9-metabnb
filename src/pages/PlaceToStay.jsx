@@ -17,6 +17,7 @@ import Fourteen from "../cards/inspiration14.svg";
 import Fifteen from "../cards/inspiration15.svg";
 import Sixteen from "../cards/inspiration16.svg";
 import { VscSettings } from "react-icons/vsc"
+import rating from "../assets/ratings.png";
 
 
 
@@ -89,7 +90,7 @@ export default function PlaceToStay() {
               <p>available for 2weeks stay</p>
             </div>
           </div>
-          <img src="../assets/ratings.png" alt="rating" className="rating" />
+          <img src={rating} alt="rating" className="rating" />
         </div>
            
          ))}

@@ -1,5 +1,9 @@
 import React from "react";
 import "./footer.css";
+import fb from "../assets/facebook.png";
+import twitter from "../assets/twitter.png";
+import insta from "../assets/instagram.png";
+import footlogo from "../assets/footerlogo.svg";
 
 
 export default function Footer() {
@@ -8,15 +12,15 @@ export default function Footer() {
       <div className="footerlogocontainer">
         <div className="footerlogotop">
           <img
-            src="../../assets/footerlogo.svg"
+            src={footlogo}
             alt="logo"
             className="footerlogo"
           />
         </div>
         <div className="footerlogomid">
-         <img src="../../assets/facebook.png" alt="facebook" className="footerlogoicon" />
-          <img src="../../assets/twitter.png" alt="twitter" className="footerlogoicon" />
-          <img src="../../assets/instagram.png" alt="instagram" className="footerlogoicon" />
+         <img src={fb} alt="facebook" className="footerlogoicon" />
+          <img src={twitter} alt="twitter" className="footerlogoicon" />
+          <img src={insta} alt="instagram" className="footerlogoicon" />
         
         </div>
         <div className="footerlogobottom">
