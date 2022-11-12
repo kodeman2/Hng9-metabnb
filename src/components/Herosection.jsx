@@ -32,7 +32,7 @@ export default function Herosection() {
         </div>
         <div className="righthero">
 
-         <img src="../../assets/heroimg.png" alt="heroimage" className="heroimage" />
+         <img src="../public/heroimg.png" alt="heroimage" className="heroimage" />
         </div>
       </div>
       <div className="herosectionbottomcontainer">
