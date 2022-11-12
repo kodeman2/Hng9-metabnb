@@ -1,5 +1,5 @@
 import "./herosection.css";
-import  metamask from "../assets/metamask.svg";
+import  metamask from "../assets/MetaMask.svg";
 import  mbtoken from "../assets/mbtoken.svg";
 import opensea from "../assets/opensea.svg";
 import heroimg from "../assets/heroimg.svg";
