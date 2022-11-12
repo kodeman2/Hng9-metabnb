@@ -3,7 +3,7 @@ import "./footer.css";
 import fb from "../assets/facebook.png";
 import twitter from "../assets/twitter.png";
 import insta from "../assets/instagram.png";
-import footlogo from "../assets/footerlogo.svg";
+import footlogo from "../assets/footerLogo.svg";
 
 
 export default function Footer() {
