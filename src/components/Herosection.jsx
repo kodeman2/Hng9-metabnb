@@ -1,5 +1,8 @@
 import "./herosection.css";
 import  metamask from "../assets/metamask.svg";
+import  mbtoken from "../assets/mbtoken.svg";
+import opensea from "../assets/opensea.svg";
+import heroimg from "../assets/heroimg.png";
 
 export default function Herosection() {
   return (
@@ -33,13 +36,13 @@ export default function Herosection() {
         </div>
         <div className="righthero">
 
-         <img src="../public/heroimg.png" alt="heroimage" className="heroimage" />
+         <img src={heroimg} alt="heroimage" className="heroimage" />
         </div>
       </div>
       <div className="herosectionbottomcontainer">
-      <img src="../assets/mbtoken.svg" alt="MBToken-Icon" id="imgStyle" />
-        <img src={metamask} alt="MetaMask-Icon" id="imgStyle" />
-        <img src="../assets/OpenSea.svg" alt="OpenSea-Icon" id="imgStyle" />
+      <img src={mbtoken} alt="mbtoken" id="imgStyle" />
+        <img src={metamask} alt="metamask" id="imgStyle" />
+        <img src={opensea} alt="opensea" id="imgStyle" />
       </div>
     </div>
   );
