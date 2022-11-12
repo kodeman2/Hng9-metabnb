@@ -2,7 +2,7 @@ import "./herosection.css";
 import  metamask from "../assets/metamask.svg";
 import  mbtoken from "../assets/mbtoken.svg";
 import opensea from "../assets/opensea.svg";
-import heroimg from "../assets/heroimg.png";
+import heroimg from "../assets/heroimg.svg";
 
 export default function Herosection() {
   return (
