@@ -36,7 +36,7 @@ export default function Herosection() {
         </div>
       </div>
       <div className="herosectionbottomcontainer">
-      <img src="../../assets/MBToken.svg" alt="MBToken-Icon" id="imgStyle" />
+      <img src="../../assets/mbtoken.svg" alt="MBToken-Icon" id="imgStyle" />
         <img src="../../assets/MetaMask.svg" alt="MetaMask-Icon" id="imgStyle" />
         <img src="../../assets/OpenSea.svg" alt="OpenSea-Icon" id="imgStyle" />
       </div>
