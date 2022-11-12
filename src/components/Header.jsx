@@ -21,7 +21,7 @@ export default function Header() {
   return (
     <div className="header" >
       <div className="headerlogocontainer">
-        <img src="./src/assets/logo.png" alt="logo" className="logoicon" />
+        <img src="../../assets/logo.png" alt="logo" className="logoicon" />
        
 
        

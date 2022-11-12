@@ -13,7 +13,7 @@ export default function BottomMain() {
 
      </div>
      <div className="rightbottom">
-      <img src="./src/assets/bottom.png" alt="bottom" className="bottomimg" />
+      <img src="../../assets/bottom.png" alt="bottom" className="bottomimg" />
       </div>
      </div>
   )

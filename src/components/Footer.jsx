@@ -1,10 +1,6 @@
 import React from "react";
 import "./footer.css";
-import {
-  AiOutlineInstagram,
-  AiOutlineTwitter,
-  AiOutlineFacebook,
-} from "react-icons/ai";
+
 
 export default function Footer() {
   return (
@@ -12,15 +8,15 @@ export default function Footer() {
       <div className="footerlogocontainer">
         <div className="footerlogotop">
           <img
-            src="./src/assets/footerlogo.svg"
+            src="../../assets/footerlogo.svg"
             alt="logo"
             className="footerlogo"
           />
         </div>
         <div className="footerlogomid">
-         <img src="./src/assets/facebook.png" alt="facebook" className="footerlogoicon" />
-          <img src="./src/assets/twitter.png" alt="twitter" className="footerlogoicon" />
-          <img src="./src/assets/instagram.png" alt="instagram" className="footerlogoicon" />
+         <img src="../../assets/facebook.png" alt="facebook" className="footerlogoicon" />
+          <img src="../../assets/twitter.png" alt="twitter" className="footerlogoicon" />
+          <img src="../../assets/instagram.png" alt="instagram" className="footerlogoicon" />
         
         </div>
         <div className="footerlogobottom">

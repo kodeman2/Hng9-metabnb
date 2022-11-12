@@ -32,13 +32,13 @@ export default function Herosection() {
         </div>
         <div className="righthero">
 
-         <img src="./src/assets/heroimg.png" alt="heroimage" className="heroimage" />
+         <img src="../../assets/heroimg.png" alt="heroimage" className="heroimage" />
         </div>
       </div>
       <div className="herosectionbottomcontainer">
-      <img src="./src/assets/MBToken.svg" alt="MBToken-Icon" id="imgStyle" />
-        <img src="./src/assets/MetaMask.svg" alt="MetaMask-Icon" id="imgStyle" />
-        <img src="./src/assets/OpenSea.svg" alt="OpenSea-Icon" id="imgStyle" />
+      <img src="../../assets/MBToken.svg" alt="MBToken-Icon" id="imgStyle" />
+        <img src="../../assets/MetaMask.svg" alt="MetaMask-Icon" id="imgStyle" />
+        <img src="../../assets/OpenSea.svg" alt="OpenSea-Icon" id="imgStyle" />
       </div>
     </div>
   );

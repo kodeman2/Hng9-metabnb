@@ -89,7 +89,7 @@ export default function PlaceToStay() {
               <p>available for 2weeks stay</p>
             </div>
           </div>
-          <img src="./src/assets/ratings.png" alt="rating" className="rating" />
+          <img src="../assets/ratings.png" alt="rating" className="rating" />
         </div>
            
          ))}
