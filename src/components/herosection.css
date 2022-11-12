@@ -112,7 +112,7 @@
   .herosectiontopcontainer{
     display: flex;
     flex-direction: column;
-    padding: 10px 100px;
+    padding: 0px;
     margin: 0px;
     width: 100%;
   }
@@ -147,7 +147,7 @@
   .righthero{
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding:  20px 50px;
     margin: 0px;
     width: 100%;
   }
@@ -181,3 +181,4 @@
 
  
 }
+
