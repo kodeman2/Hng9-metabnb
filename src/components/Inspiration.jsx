@@ -1,12 +1,12 @@
 import './inspiration.css';
-import One from "../assets/cards/inspiration1.svg";
-import Two from "../assets/cards/inspiration2.svg";
-import Three from "../assets/cards/inspiration3.svg";
-import Four from "../assets/cards/inspiration4.svg";
-import Five from "../assets/cards/inspiration5.svg";
-import Six from "../assets/cards/inspiration6.svg";
-import Seven from "../assets/cards/inspiration7.svg";
-import Eight from "../assets/cards/inspiration8.svg";
+import One from "../cards/inspiration1.svg";
+import Two from "../cards/inspiration2.svg";
+import Three from "../cards/inspiration3.svg";
+import Four from "../cards/inspiration4.svg";
+import Five from "../cards/inspiration5.svg";
+import Six from "../cards/inspiration6.svg";
+import Seven from "../cards/inspiration7.svg";
+import Eight from "../cards/inspiration8.svg";
 
 export default function Inspiration() {
 

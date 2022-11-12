@@ -1,21 +1,21 @@
 import "./placetostay.css";
 
-import One from "../assets/cards/inspiration1.svg";
-import Two from "../assets/cards/inspiration2.svg";
-import Three from "../assets/cards/inspiration3.svg";
-import Four from "../assets/cards/inspiration4.svg";
-import Five from "../assets/cards/inspiration5.svg";
-import Six from "../assets/cards/inspiration6.svg";
-import Seven from "../assets/cards/inspiration7.svg";
-import Eight from "../assets/cards/inspiration8.svg";
-import Nine from "../assets/cards/inspiration9.svg";
-import Ten from "../assets/cards/inspiration10.svg";
-import Eleven from "../assets/cards/inspiration11.svg";
-import Twelve from "../assets/cards/inspiration12.svg";
-import Thirteen from "../assets/cards/inspiration13.svg";
-import Fourteen from "../assets/cards/inspiration14.svg";
-import Fifteen from "../assets/cards/inspiration15.svg";
-import Sixteen from "../assets/cards/inspiration16.svg";
+import One from "../cards/inspiration1.svg";
+import Two from "../cards/inspiration2.svg";
+import Three from "../cards/inspiration3.svg";
+import Four from "../cards/inspiration4.svg";
+import Five from "../cards/inspiration5.svg";
+import Six from "../cards/inspiration6.svg";
+import Seven from "../cards/inspiration7.svg";
+import Eight from "../cards/inspiration8.svg";
+import Nine from "../cards/inspiration9.svg";
+import Ten from "../cards/inspiration10.svg";
+import Eleven from "../cards/inspiration11.svg";
+import Twelve from "../cards/inspiration12.svg";
+import Thirteen from "../cards/inspiration13.svg";
+import Fourteen from "../cards/inspiration14.svg";
+import Fifteen from "../cards/inspiration15.svg";
+import Sixteen from "../cards/inspiration16.svg";
 import { VscSettings } from "react-icons/vsc"
 
 
