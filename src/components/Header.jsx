@@ -41,7 +41,7 @@ export default function Header() {
 
       {/* condition for showing hamburger menu in mobile mode */}
       <nav className={active ? 'navbar active' : 'navbar'}>   
-       <ul >
+       <ul onClick={handleToggle} >
         <div className="closed">
           <CloseIcon onClick={handleToggle} className='close' />
         </div>
