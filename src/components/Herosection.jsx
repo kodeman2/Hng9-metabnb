@@ -4,6 +4,8 @@ import  mbtoken from "../assets/mbtoken.svg";
 import opensea from "../assets/OpenSea.svg";
 import heroimg from "../assets/heroImg.png";
 
+// hero section
+
 export default function Herosection() {
   return (
     <div className="herosection">

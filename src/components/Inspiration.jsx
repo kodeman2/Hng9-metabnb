@@ -9,9 +9,10 @@ import Seven from "../cards/inspiration7.svg";
 import Eight from "../cards/inspiration8.svg";
 import rating from "../assets/ratings.png";
 
+// inspiration section
 export default function Inspiration() {
 
- 
+//  store card images in a finction
   const places = [
     One,
     Two,
@@ -30,7 +31,7 @@ export default function Inspiration() {
       <h2>Inspiration for your next adventure</h2>
 
       <div className="inspirationbody">
-        {/* 1st container */}
+        {/* container cards rendered dynamically*/}
         <div className="inspirationcont">
          {places.map((place) => (
            <div className="inspirationcard">

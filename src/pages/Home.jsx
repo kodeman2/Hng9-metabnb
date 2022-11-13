@@ -5,6 +5,8 @@ import Inspiration from '../components/Inspiration'
 import './home.css'
 
 export default function Home() {
+
+  // render all home components
   return (
     <div className='homepage'>
      <Herosection/>

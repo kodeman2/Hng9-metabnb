@@ -7,13 +7,20 @@ import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
 import logo from '../assets/logo.png';
 
+// header section
 
 export default function Header() {
 
 
+
+// mobile hamburger state
     const [active, setActive] = useState(false);
+
+    // modal state initialization...you get!
     const [openModal, setOpenModal] = useState(false);
 
+
+// handle toggle function for hamburger menu
     const handleToggle = () => {
 
         setActive(!active);
@@ -28,8 +35,11 @@ export default function Header() {
        
       </div>
       <div className="menuicon">
+        {/* display menu when clicked */}
         <MenuIcon onClick={handleToggle} />
       </div>
+
+      {/* condition for showing hamburger menu in mobile mode */}
       <nav className={active ? 'navbar active' : 'navbar'}>   
        <ul >
         <div className="closed">
@@ -44,6 +54,8 @@ export default function Header() {
         <button  onClick={() => setOpenModal(true) }className="modalbtn">Connect Wallet</button>
       </div>
       </nav>
+
+      {/* conditional modal display when clicked */}
       <Modal open={openModal}  onClose={() => setOpenModal(false)} />
       
 

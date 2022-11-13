@@ -2,6 +2,8 @@ import "./bottommain.css";
 import bottom from "../assets/bottom.png";
 
 export default function BottomMain() {
+
+  // bottom section of home page
   return (
     <div className="bottommain">
      <div className="leftbottom">
@@ -14,6 +16,8 @@ export default function BottomMain() {
 
      </div>
      <div className="rightbottom">
+
+      {/* bottom section image */}
       <img src={bottom} alt="bottomm" className="bottomimg" />
       </div>
      </div>

@@ -6,11 +6,15 @@ import insta from "../assets/instagram.png";
 import footlogo from "../assets/footerLogo.svg";
 
 
+// footer section
+
 export default function Footer() {
   return (
     <div className="footer">
       <div className="footerlogocontainer">
         <div className="footerlogotop">
+
+          {/* footer logo section */}
           <img
             src={footlogo}
             alt="logo"
@@ -27,6 +31,8 @@ export default function Footer() {
           <p>&copy; 2022 Metabnb</p>
         </div>
       </div>
+
+      {/* footer list */}
       <div className="footerlist">
         <ul>
           <li>
