@@ -41,16 +41,16 @@ export default function Header() {
 
       {/* condition for showing hamburger menu in mobile mode */}
       <nav className={active ? 'navbar active' : 'navbar'}>   
-       <ul onClick={handleToggle} >
+       <ul  >
         <div className="closed">
           <CloseIcon onClick={handleToggle} className='close' />
         </div>
-         <li><Link to="/">Home</Link></li>
-         <li><Link to="/placetostay">Place To Stay</Link></li>
-         <li><Link to="/">NFTs</Link></li>
-         <li><Link to="/">Community</Link></li>
+         <li onClick={handleToggle}><Link to="/">Home</Link></li>
+         <li onClick={handleToggle}><Link to="/placetostay">Place To Stay</Link></li>
+         <li onClick={handleToggle}><Link to="/">NFTs</Link></li>
+         <li onClick={handleToggle}><Link to="/">Community</Link></li>
        </ul>
-      <div className="headerbtn">
+      <div onClick={handleToggle} className="headerbtn">
         <button  onClick={() => setOpenModal(true) }className="modalbtn">Connect Wallet</button>
       </div>
       </nav>
