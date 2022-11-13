@@ -58,6 +58,8 @@
  line-height: 23px;
 }
 
+
+/* media queries for tablets and  mobile sceens */
 @media screen and (max-width: 1200px) {
  .footer{
  display: flex;

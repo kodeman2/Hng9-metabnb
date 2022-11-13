@@ -74,7 +74,7 @@
   padding: 9px 0px 16px 0px;
 }
 
-
+/* media queries for tablets and larger mobile sceens */
 @media screen and (max-width: 1200px) {
   .inspiration {
     align-items: center;
@@ -91,6 +91,8 @@
   }
 }
 
+
+/* media queries for mobile sceens */
 @media screen and (max-width: 768px) {
   .inspiration {
     padding: 58px 20px;

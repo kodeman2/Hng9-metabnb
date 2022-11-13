@@ -1,6 +1,6 @@
 .placetostay {
   display: flex;
-  padding: 120px 100px 92px 100px;
+  padding: 190px 100px 92px 100px;
 }
 .placepage {
   display: flex;
@@ -103,10 +103,13 @@
   padding: 9px 0px 16px 0px;
 }
 
+
+
+/* media queries for tablets and larger mobile sceens */
 @media (max-width: 1200px) {
 
   .placetostay {
-    padding:58px 100px;
+    padding:158px 100px 58px 100px;
     align-items: center;
   }
 
@@ -134,9 +137,11 @@
   }
 }
 
+/* media queries for  mobile sceens */
+
 @media (max-width: 768px) {
   .placetostay {
-    padding: 80px 60px;
+    padding: 150px 60px 80px 60px;
    
   }
   .placecard{

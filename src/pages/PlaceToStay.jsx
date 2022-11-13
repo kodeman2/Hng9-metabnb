@@ -22,7 +22,7 @@ import rating from "../assets/ratings.png";
 
 
 export default function PlaceToStay() {
-
+// store places images
   const places = [
 
     One,
@@ -43,6 +43,7 @@ export default function PlaceToStay() {
     Sixteen,
   ];
 
+  // store places categories  
   const placehead = [
    "Resturant",
    "Cottage",
@@ -76,7 +77,7 @@ export default function PlaceToStay() {
        <div>
 
        <div className="placebody">
-        {/* 1st container */}
+        {/*  render container dynamically */}
         {places.map((place) => (
           <div className="placecard">
            <img src={place} alt="place" className="placeimg"/>

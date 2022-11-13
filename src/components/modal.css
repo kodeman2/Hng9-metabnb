@@ -82,6 +82,8 @@ form button:last-child{
  background-color: #ffffff;
 }
 
+
+/* media queries for mobile sceens */
 @media screen and (max-width: 600px) {
  .modalContainer {
    width: 90%;
