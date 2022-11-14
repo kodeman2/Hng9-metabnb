@@ -118,9 +118,10 @@
 
   
 .logoicon {
-  width: 100px;
+  width: 160px;
   height: 37px;
   margin-top: 4px;
+
 }
 
 .navbar  {
@@ -186,6 +187,8 @@
 
 .menuicon{
   display: flex;
+  cursor: pointer;
+
 }
 
 .closed{

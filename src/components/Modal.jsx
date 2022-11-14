@@ -15,7 +15,7 @@ const Modal = ({ open, onClose }) => {
   return (
       <div className='overlay' onClick={onClose}>
           <div className='modalContainer' onClick={(e) => {
-            // prevent modal container div closing when clicked
+  // prevent modal container div closing when clicked
              e.stopPropagation();
             }}>
               <div className="modalHeader">
