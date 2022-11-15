@@ -4,7 +4,7 @@
 For responsive design, the mobile screens should be one in a row, the tablet should be 2 in a row, while the desktop should maintain 4 in a row as in the UI Design.
 # By 
  ## Olagunju Oluwakolade 
- ## Oluwakolade_Olagunju on Slack
+ ## Olagunju_Oluwakolade on Slack
 
  # Hosted Link
  
